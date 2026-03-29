@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Ignore local credential files (common name in this repo)
+# This will ignore any credentials.json in subfolders (e.g. simple-adk-agent/sync-to-action/credentials.json)
+**/credentials.json
+credentials.json
+
+# Google Cloud SDK local config
+.gcloud-config

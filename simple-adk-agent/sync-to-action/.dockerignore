@@ -1,0 +1,6 @@
+.gcloud-config/
+.env
+venv/
+__pycache__/
+*.pyc
+.git/
